@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    background-color:red;
+  }
+  /* Header styles */
+
+  header { 
+    background-color: #16addb85;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin-right: 0px;
+    padding: 7px 15px;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+  color: #e20404;
+  padding: 7px 15px;
+  }
+  nav ul li a:hover {
+  color: #ec0e0ee8;
+/* Hero section styles */
+.hero-section {
+  background-image: url("hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #e00000;
+}
+
+
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    background-color: #d1bd06fa;
+    color: #dd0808;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  /* Featured section styles */
+  .featured-section {
+    text-align: center;
+    padding: 50px 0 ;
+  }
+  
+  .featured-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .pizza-container
+  
